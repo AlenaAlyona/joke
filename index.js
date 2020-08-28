@@ -22,7 +22,7 @@ app.get(
     }
 )
 
-const port = 8900
+const port = process.env.PORT || 8900
 
   
   app.listen(
